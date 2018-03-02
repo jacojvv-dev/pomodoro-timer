@@ -1,4 +1,4 @@
-require('../dist/pomodoro');
+require('../src/pomodoro');
 const pomodoro = new Pomodoro();
 
 test('default duration is 25', () => {
