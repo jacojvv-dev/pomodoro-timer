@@ -4,7 +4,7 @@
   "description": "simple pomodoro",
   "main": "index.js",
   "scripts": {
-    "test": "npm run dev && jest",
+    "test": "npm run dev && jest --coverage",
     "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
